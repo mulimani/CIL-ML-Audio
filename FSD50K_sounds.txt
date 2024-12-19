@@ -1,52 +1,52 @@
-Class                                               Dev.    Eval.
-
-Acoustic_guitar	                                    3325	1073
-Alarm	                                            11449	6451
-Animal	                                            32673	15138
-Bell	                                            6182	4821
-Bird_vocalization_and_bird_call_and_bird_song	    6613	7241
-Bird	                                            12600	8447
-Bowed_string_instrument	                            9718	1066
-Brass_instrument	                                5288	617
-Car	                                                6724	3989
-Cymbal	                                            2291	1437
-Dog	                                                5750	2402
-Domestic_animals_and_pets	                        8321	3787
-Domestic_sounds_and_home_sounds	                    38628	20642
-Door	                                            6155	4183
-Drum	                                            5226	2359
-Electric_guitar	                                    2050	1372
-Engine	                                            10371	8618
-Explosion	                                        6846	2247
-Fart	                                            1326	342
-Glass	                                            4937	2192
-Guitar	                                            10452	3199
-Hands	                                            2364	3083
-Hi-hat	                                            1242	822
-Human_group_actions	                                9146	9318
-Human_voice	                                        24292	17776
-Keyboard_(musical)	                                10656	3170
-Laughter	                                        4828	2635
-Liquid	                                            9632	5748
-Livestock_and_farm_animals_and_working_animals	    5365	1719
-Mechanisms	                                        10630	5929
-Motor_vehicle_(road)	                            17540	8133
-Music	                                            72225	15828
-Percussion	                                        12807	6176
-Piano                                           	5671	644
-Plucked_string_instrument	                        11040	3442
-Rail_transport	                                    8846	2987
-Rain	                                            7508	3662
-Respiratory_sounds	                                4611	3715
-Singing	                                            5652	2534
-Snare_drum	                                        1830	1027
-Speech	                                            7217	9501
-Telephone	                                        4506	1521
-Thunder	                                            8466	2474
-Thunderstorm	                                    8466	2474
-Tools	                                            6460	2637
-Trumpet	                                            3570	379
-Vehicle	                                            34638	14619
-Water	                                            23663	11584
-Wild_animals	                                    19011	11276
-Wind_instrument_and_woodwind_instrument	            15571	1181
+                                         class       Dev.      Eval.
+-------------------------------------------------------------------------------------------
+                               Acoustic_guitar      3,325      1,073
+                                         Alarm     11,449      6,451
+                                        Animal     32,673     15,138
+                                          Bell      6,182      4,821
+ Bird_vocalization_and_bird_call_and_bird_song      6,613      7,241
+                                          Bird     12,600      8,447
+                       Bowed_string_instrument      9,718      1,066
+                              Brass_instrument      5,288        617
+                                           Car      6,724      3,989
+                                        Cymbal      2,291      1,437
+                                           Dog      5,750      2,402
+                     Domestic_animals_and_pets      8,321      3,787
+               Domestic_sounds_and_home_sounds     38,628     20,642
+                                          Door      6,155      4,183
+                                          Drum      5,226      2,359
+                               Electric_guitar      2,050      1,372
+                                        Engine     10,371      8,618
+                                     Explosion      6,846      2,247
+                                          Fart      1,326        342
+                                         Glass      4,937      2,192
+                                        Guitar     10,452      3,199
+                                         Hands      2,364      3,083
+                                        Hi-hat      1,242        822
+                           Human_group_actions      9,146      9,318
+                                   Human_voice     24,292     17,776
+                            Keyboard_(musical)     10,656      3,170
+                                      Laughter      4,828      2,635
+                                        Liquid      9,632      5,748
+Livestock_and_farm_animals_and_working_animals      5,365      1,719
+                                    Mechanisms     10,630      5,929
+                          Motor_vehicle_(road)     17,540      8,133
+                                         Music     72,225     15,828
+                                    Percussion     12,807      6,176
+                                         Piano      5,671        644
+                     Plucked_string_instrument     11,040      3,442
+                                Rail_transport      8,846      2,987
+                                          Rain      7,508      3,662
+                            Respiratory_sounds      4,611      3,715
+                                       Singing      5,652      2,534
+                                    Snare_drum      1,830      1,027
+                                        Speech      7,217      9,501
+                                     Telephone      4,506      1,521
+                                       Thunder      8,466      2,474
+                                  Thunderstorm      8,466      2,474
+                                         Tools      6,460      2,637
+                                       Trumpet      3,570        379
+                                       Vehicle     34,638     14,619
+                                         Water     23,663     11,584
+                                  Wild_animals     19,011     11,276
+       Wind_instrument_and_woodwind_instrument     15,571      1,181
