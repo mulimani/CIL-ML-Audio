@@ -1,52 +1,52 @@
                                   Class   Dev. set  Eval. set
----------------------------------------------------------------------------------------                                  
-           Accelerating, revving, vroom     3699.0      451.0
-                                 Animal     1615.0      526.0
-                       Background noise    19219.0      810.0
-                                   Bark     1592.0      156.0
-                            Beep, bleep     2280.0      368.0
-                                   Bell      991.0      225.0
-Bird vocalization, bird call, bird song     4702.0      460.0
-                              Breathing    16059.0     1355.0
-             Child speech, kid speaking     4133.0      580.0
-                           Chirp, tweet     2703.0      620.0
-                                  Choir     1319.0      174.0
-                               Clapping     2186.0      343.0
-                         Clickety-clack      697.0       53.0
-                               Clicking     3079.0      711.0
-                      Computer keyboard      511.0       69.0
-                           Conversation     7107.0      713.0
-                                Cricket      694.0      151.0
-                                  Crowd     2964.0      403.0
-                   Crumpling, crinkling      916.0      159.0
-                                    Dog     1141.0      127.0
-                         Female singing     2348.0      790.0
-          Female speech, woman speaking    13917.0     2069.0
-                  Generic impact sounds    34922.0      842.0
-                       Gunshot, gunfire     1257.0      135.0
-                                 Hammer      370.0       78.0
-                Heart sounds, heartbeat      562.0       98.0
-    Hubbub, speech noise, speech babble     2974.0      408.0
-                           Human sounds     4718.0      318.0
-                            Human voice     8764.0      491.0
-                               Laughter     6663.0     1055.0
-                           Male singing     4115.0     1352.0
-              Male speech, man speaking    34266.0     5096.0
-                             Mechanisms    25625.0     2013.0
-                   Motor vehicle (road)     2139.0      308.0
-                                  Music    26459.0     6699.0
-                                  Shout     3384.0      643.0
-                           Sound effect     5974.0     1122.0
-                                 Speech     2295.0     1664.0
-                     Speech synthesizer      965.0      160.0
-                                 Squeal     1334.0      110.0
-                        Surface contact     7266.0      202.0
-                                    Tap     5206.0     1441.0
-                            Thump, thud     1251.0      327.0
-                                   Tick    18298.0      966.0
-                       Video game sound     3524.0       72.0
-                        Walk, footsteps     3161.0      493.0
-                                  Water     2650.0      587.0
-                              Whistling     1359.0      170.0
-                                   Wind     9988.0      494.0
-                Wind noise (microphone)     7466.0      793.0
+ ------------------------------------------------------------------------------------
+           Accelerating, revving, vroom      3,699        451
+                                 Animal      1,615        526
+                       Background noise     19,219        810
+                                   Bark      1,592        156
+                            Beep, bleep      2,280        368
+                                   Bell        991        225
+Bird vocalization, bird call, bird song      4,702        460
+                              Breathing     16,059      1,355
+             Child speech, kid speaking      4,133        580
+                           Chirp, tweet      2,703        620
+                                  Choir      1,319        174
+                               Clapping      2,186        343
+                         Clickety-clack        697         53
+                               Clicking      3,079        711
+                      Computer keyboard        511         69
+                           Conversation      7,107        713
+                                Cricket        694        151
+                                  Crowd      2,964        403
+                   Crumpling, crinkling        916        159
+                                    Dog      1,141        127
+                         Female singing      2,348        790
+          Female speech, woman speaking     13,917      2,069
+                  Generic impact sounds     34,922        842
+                       Gunshot, gunfire      1,257        135
+                                 Hammer        370         78
+                Heart sounds, heartbeat        562         98
+    Hubbub, speech noise, speech babble      2,974        408
+                           Human sounds      4,718        318
+                            Human voice      8,764        491
+                               Laughter      6,663      1,055
+                           Male singing      4,115      1,352
+              Male speech, man speaking     34,266      5,096
+                             Mechanisms     25,625      2,013
+                   Motor vehicle (road)      2,139        308
+                                  Music     26,459      6,699
+                                  Shout      3,384        643
+                           Sound effect      5,974      1,122
+                                 Speech      2,295      1,664
+                     Speech synthesizer        965        160
+                                 Squeal      1,334        110
+                        Surface contact      7,266        202
+                                    Tap      5,206      1,441
+                            Thump, thud      1,251        327
+                                   Tick     18,298        966
+                       Video game sound      3,524         72
+                        Walk, footsteps      3,161        493
+                                  Water      2,650        587
+                              Whistling      1,359        170
+                                   Wind      9,988        494
+                Wind noise (microphone)      7,466        793
