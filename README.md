@@ -63,8 +63,8 @@ Prepare the text files includes path for the audio files and corresponding label
 ```
 * train_phase_2.txt (5 classes)
 ```
-/scratch/project_2003370/alex/Audioset/train/Y4PPmyY_-YrA_30000.wav_[0. 0. 0. 0. 1.].npy
-/scratch/project_2003370/alex/Audioset/train/YO35jXasNYxc_30000.wav_[0. 1. 0. 0. 0.].npy
+/scratch/project_2003370/alex/Audioset/train/Y4PPmyY_-YrA_30000.wav_[0. 0. 0. 0. 1.]
+/scratch/project_2003370/alex/Audioset/train/YO35jXasNYxc_30000.wav_[0. 1. 0. 0. 0.]
  ....
 ```
 * test_phase_0_1_2.txt (40 classes)
@@ -77,8 +77,8 @@ Prepare the text files includes path for the audio files and corresponding label
 ```
 * train_phase_3.txt (5 classes)
 ```
-/scratch/project_2003370/alex/Audioset/train/YVPueASe6yxY_440000.wav_[1. 0. 0. 0. 0.].npy
-/scratch/project_2003370/alex/Audioset/train/Yk-VZj_uYyjg_520000.wav_[0. 0. 0. 1. 0.].npy
+/scratch/project_2003370/alex/Audioset/train/YVPueASe6yxY_440000.wav_[1. 0. 0. 0. 0.]
+/scratch/project_2003370/alex/Audioset/train/Yk-VZj_uYyjg_520000.wav_[0. 0. 0. 1. 0.]
  ....
 ```
 * test_phase_0_1_2_3.txt (45 classes)
@@ -91,8 +91,8 @@ Prepare the text files includes path for the audio files and corresponding label
 ```
 * train_phase_4.txt (5 classes)
 ```
-/scratch/project_2003370/alex/Audioset/train/YVPueASe6yxY_440000.wav_[1. 0. 0. 0. 0.].npy
-/scratch/project_2003370/alex/Audioset/train/Yk-VZj_uYyjg_520000.wav_[0. 0. 0. 1. 0.].npy
+/scratch/project_2003370/alex/Audioset/train/YVPueASe6yxY_440000.wav_[1. 0. 0. 0. 0.]
+/scratch/project_2003370/alex/Audioset/train/Yk-VZj_uYyjg_520000.wav_[0. 0. 0. 1. 0.]
  ....
 ```
 * test_phase_0_1_2_3_4.txt (50 classes)
