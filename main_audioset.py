@@ -196,7 +196,7 @@ def _train(model, old_model, epoch, lr, train_loader, checkPoint, posi_weight):
 
 
 def evaluate_bin(model, test_loader):
-    # In the paper, mAP is thrsholded with 0.5. However, explicit thresholding is not required to compute mAP.
+    # In the paper, mAP is thrsholded with 0.5. However, explicit thresholding is not required to compute mAP..
     model.cuda()
     model.eval()
 
