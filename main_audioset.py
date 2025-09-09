@@ -196,27 +196,33 @@ def _train(model, old_model, epoch, lr, train_loader, checkPoint, posi_weight):
 
 
 def evaluate_bin(model, test_loader):
+    # In the paper, mAP is thrsholded with 0.5. However, explicit thresholding is not required to compute mAP.
     model.cuda()
     model.eval()
 
     all_preds = []
     all_targets = []
+    all_preds_prob = []
 
     for j, (mels, labels) in enumerate(test_loader):
         out, _ = model(mels.cuda().float())
-        preds = torch.gt(torch.sigmoid(out), 0.5)
+        preds_prob = torch.sigmoid(out)
+        preds_threshold = torch.gt(torch.sigmoid(out), 0.5)
         all_preds.extend(
-            preds.cpu().numpy())
+            preds_threshold.cpu().numpy())
+        all_preds_prob.extend(
+            preds_prob.cpu().numpy())
         all_targets.extend(np.asarray(labels))
 
     Y_predicted = np.asarray(all_preds)
+    Y_predicted_prob = np.asarray(all_preds_prob)
     Y_ref = np.asarray(all_targets)
 
     print('Reference polyphony:', Counter(Y_ref.sum(axis=1)))
     print('Predicted polyphony:', Counter(Y_predicted.sum(axis=1)))
     print(classification_report(Y_ref, Y_predicted))
 
-    average_precision = average_precision_score(Y_ref, Y_predicted, average=None)
+    average_precision = average_precision_score(Y_ref, Y_predicted_prob, average=None)
     mAp = np.mean(average_precision)
     print('mAP', mAp)
 
@@ -233,7 +239,7 @@ def evaluate_bin(model, test_loader):
 
     print('on initial classes')
     print(classification_report(Y_ref[:, :30], Y_predicted[:, :30]))
-    average_precision_ini = average_precision_score(Y_ref[:, :30], Y_predicted[:, :30], average=None)
+    average_precision_ini = average_precision_score(Y_ref[:, :30], Y_predicted_prob[:, :30], average=None)
     mAp_ini = np.mean(average_precision_ini)
     print('mAP_ini', mAp_ini)
 
